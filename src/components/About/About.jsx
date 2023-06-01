@@ -2,6 +2,7 @@ import PropTypes from "prop-types";
 import "./About.css";
 
 export const About = ({ aboutMe }) => {
+  console.log(aboutMe);
   return (
     <div className="aboutCont">
       {aboutMe.map((item) => {

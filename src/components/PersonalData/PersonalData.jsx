@@ -9,15 +9,14 @@ export const PersonalData = ({ personal }) => {
         <h2>
           {personal.name} {personal.surname}
         </h2>
-        <p>🗺️{personal.city} </p>
-        <p>🗓️{personal.birthDate}</p>
+        <p>{personal.city} </p>
+        <p>{personal.birthDate}</p>
         <p>
-          📧
           <a href={"email:" + personal.email}>alberto.elmazao@outlook.es</a>
         </p>
-        <p>📱 {personal.phone}</p>
+        <p>{personal.phone}</p>
         <p>
-          💾<a href={personal.gitHub}>GitHub</a>
+          <a href={personal.gitHub}>GitHub</a>
         </p>
       </div>
     </div>
