@@ -1,8 +1,9 @@
 .experienceCard {
   background-color: #4f5f5a;
-  width: 40vw;
+  width: 30vw;
   border-radius: 15px;
   margin-bottom: 40px;
+  padding: 30px;
 }
 
 h3 {

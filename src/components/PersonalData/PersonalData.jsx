@@ -2,6 +2,7 @@ import PropTypes from "prop-types";
 import "./PersonalData.css";
 
 export const PersonalData = ({ personal }) => {
+  //hacemos destructuring y recibimos por props la informacion de CV
   return (
     <div className="personalData">
       <img src={personal.image} alt="" />

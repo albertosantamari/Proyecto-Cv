@@ -3,8 +3,7 @@
   margin: 0;
   box-sizing: border-box;
 }
-
-body {
+.App {
   display: flex;
   flex-direction: column;
   justify-content: center;
